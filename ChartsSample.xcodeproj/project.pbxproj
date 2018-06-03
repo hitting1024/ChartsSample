@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		99DCB4872DF5F6A9E82A0DB7 /* Pods_ChartsSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66A194DA4B60B0508D3459B2 /* Pods_ChartsSample.framework */; };
+		D829664A20C42F48007654A1 /* PieChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D829664920C42F48007654A1 /* PieChartViewController.swift */; };
 		D8D43F5520C41D5F0099EFCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D43F5420C41D5F0099EFCC /* AppDelegate.swift */; };
 		D8D43F5720C41D5F0099EFCC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D43F5620C41D5F0099EFCC /* ViewController.swift */; };
 		D8D43F5A20C41D5F0099EFCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8D43F5820C41D5F0099EFCC /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 /* Begin PBXFileReference section */
 		66A194DA4B60B0508D3459B2 /* Pods_ChartsSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChartsSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9CA3D8C3963A7DFC34708D2 /* Pods-ChartsSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChartsSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChartsSample/Pods-ChartsSample.debug.xcconfig"; sourceTree = "<group>"; };
+		D829664920C42F48007654A1 /* PieChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChartViewController.swift; sourceTree = "<group>"; };
 		D8D43F5120C41D5F0099EFCC /* ChartsSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChartsSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8D43F5420C41D5F0099EFCC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D8D43F5620C41D5F0099EFCC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 			children = (
 				D8D43F5420C41D5F0099EFCC /* AppDelegate.swift */,
 				D8D43F5620C41D5F0099EFCC /* ViewController.swift */,
+				D829664920C42F48007654A1 /* PieChartViewController.swift */,
 				D8D43F5820C41D5F0099EFCC /* Main.storyboard */,
 				D8D43F5B20C41D610099EFCC /* Assets.xcassets */,
 				D8D43F5D20C41D610099EFCC /* LaunchScreen.storyboard */,
@@ -200,6 +203,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D829664A20C42F48007654A1 /* PieChartViewController.swift in Sources */,
 				D8D43F5720C41D5F0099EFCC /* ViewController.swift in Sources */,
 				D8D43F5520C41D5F0099EFCC /* AppDelegate.swift in Sources */,
 			);
@@ -349,7 +353,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HEMC67SK37;
 				INFOPLIST_FILE = ChartsSample/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = jp.hitting.ChartsSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -365,7 +372,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HEMC67SK37;
 				INFOPLIST_FILE = ChartsSample/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = jp.hitting.ChartsSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
